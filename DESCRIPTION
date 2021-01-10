@@ -1,0 +1,25 @@
+Package: wildviz
+Type: Package
+Title: Compiles Wildfire, Climate, and Air Quality Index Data and Provides a Dashboard for US Counties
+Version: 0.1.1
+Date: 2021-01-10
+Authors@R: 
+    c(person(given = "Bradley",
+             family = "Rafferty",
+             role = c("aut", "cre"),
+             email = "brjrafferty@gmail.com"),
+      person(given = "Daniel",
+             family = "Chung",
+             role = "aut",
+             email = "dshchung@gmail.com"))
+Description: Fetches data from three disparate data sources and allows user to perform analyses on them. It offers two core components: 1. A robust data retrieval and preparation infrastructure for wildfire, climate, and air quality index data and 2. A simple, informative, and interactive visualizations of the aforementioned datasets for California counties from 2011 through 2015.
+URL: https://github.com/bradraff/wildviz
+BugReports: https://github.com/bradraff/wildviz/issues
+License: GPL-2
+LazyData: true
+Imports: DBI, dplyr, httr, jsonlite, lubridate, purrr, rnoaa, RSQLite, shiny, tibble, tidyr, shinythemes, ggplot2, plotly, ggthemes
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Depends: R (>= 3.5.0)
+Suggests: knitr, rmarkdown, markdown, testthat
+VignetteBuilder: knitr
