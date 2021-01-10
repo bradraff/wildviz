@@ -1,6 +1,6 @@
 Package: wildviz
 Type: Package
-Title: Compiles Wildfire, Climate, and Air Quality Index Data and Provides a Dashboard for US Counties
+Title: Compiles Wildfire, Climate, and Air Quality Index Data and Provides a Dashboard for Data Visualization
 Version: 0.1.1
 Date: 2021-01-10
 Authors@R: 

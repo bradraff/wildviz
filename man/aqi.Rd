@@ -3,8 +3,8 @@
 \docType{data}
 \name{aqi}
 \alias{aqi}
-\title{Air quality data records for California from 2001 - 2015}
-\format{A dataframe with 302242 rows and 10 variables:
+\title{Air quality data records for California from 2011 through 2015}
+\format{A dataframe with 102752 rows and 10 variables:
 \describe{
   \item{state_code}{Two-digit code from the FIPS publication 6-4 for states}
   \item{county_code}{Three-digit code from the FIPS publication 6-4 for counties}

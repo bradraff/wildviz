@@ -3,8 +3,8 @@
 \docType{data}
 \name{climate}
 \alias{climate}
-\title{Daily weather summaries for California from 2001 - 2015}
-\format{A dataframe with 317644 rows and 7 variables:
+\title{Daily weather summaries for California from 2011 through 2015}
+\format{A dataframe with 105850 rows and 7 variables:
 \describe{
   \item{fips}{Five-digit code combining the state and county codes from the FIPS publication 6-4 for counties}
   \item{date}{Date on which the climate measures were recorded}
@@ -23,7 +23,7 @@ climate
 \description{
 A dataframe containing daily weather summaries for California at the county level.
 It is created from summarizing the measurements from GHCND stations to the daily level
-and by filtering on the date (2000 - 2015), state (CA), and key cols.
+and by filtering on the date (2011 - 2015), state (CA), and key cols.
 }
 \details{
 Data from the Daily Global Historical Climatology Network (GHCN-Daily) through NOAA’s FTP server.

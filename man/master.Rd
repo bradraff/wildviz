@@ -3,8 +3,8 @@
 \docType{data}
 \name{master}
 \alias{master}
-\title{Master dataset combining the wildfires, AQI, and climate data for California from 2000 - 2015}
-\format{A dataframe with 2194004 rows and 23 variables:
+\title{Master dataset combining the wildfires, AQI, and climate data for California from 2011 through 2015}
+\format{A dataframe with 1105972 rows and 23 variables:
 \describe{
   \item{FIRE_NAME}{Name of the incident, from the fire report (primary) or ICS-209 report (secondary)}
   \item{DISCOVER_DATE}{Date on which the fire was discovered or confirmed to exist}
@@ -39,7 +39,7 @@ master
 }
 \description{
 The master dataframe takes each wildfire occurrence in California
-between 2001 and 2015, and joins the AQI and climate data for 30 days
+between 2011 through 2015, and joins the AQI and climate data for 30 days
 prior to the DISCOVERY_DATE (fire discovery date) and 30 days post
 CONT_DATE (fire contained date). The data is utilized by the Shiny app
 to create dashboards.

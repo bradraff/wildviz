@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 The package fetches data from three disparate data sources and allows user to perform analyses on them. It offers two core components:
 
 1. A robust data retrieval and preparation infrastructure for wildfire, climate, and air quality data
-1. A simple, informative, and interactive visualizations of the aforementioned datasets for California counties from 2001 to 2015.
+1. A simple, informative, and interactive visualizations of the aforementioned datasets for California counties from 2011 to 2015.
 
 Namely, the data preparation tools are convenient for scientists interested in retrieving and tidying data at-scale from reputable sources. The interactive dashboard, built via Shiny, is a user-friendly way to investigate wildfire data and how it may or may not link to climate and air quality data.
 
@@ -49,12 +49,6 @@ Researchers and scientists (such as Fire Scientists or Fire Prevention Engineers
     * and helper functions like get_state_code() and get_counties() that return state and county information necessary for some of the functions above.
 1. The scientist combines the datasets by the join key columns: counties and date
 1. The scientist visualizes the dataset to gain insights or builds time series or machine learrning models around the dataset to make predictions.
-
-# Contributions
-
-* Daniel: Wrote the data ingestion and manipulation functions for Wildfire, AQI, and climate datasets and created the master dataset that combines them.
-
-* Brad: Wrote the Shiny app using the static datasets created, with suggestions and input from Daniel. Provided the data requirements for the app to Daniel.
 
 ---
 
