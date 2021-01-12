@@ -11,7 +11,7 @@
 #' Retrieve average daily weather data per US county.
 #'
 #' @note The function uses the NOAA API to identify the weather monitors within a U.S. county, you will need to get an access token from
-#'    NOAA to use this function. Visit NOAA's token request page (\url{http://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
+#'    NOAA to use this function. Visit NOAA's token request page (\url{https://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
 #'    email. You then need to set that API code in your R session (e.g., using \code{options(noaakey = "your key")}, replacing "your key"
 #'    with the API key you've requested from NOAA).
 #'
@@ -41,7 +41,7 @@ daily_climate <- function(fips, var = c('prcp', 'snow', 'snwd', 'tmax', 'tmin'),
 #' Retrieve average daily weather data for a list of US counties.
 #'
 #' @note The function uses the NOAA API to identify the weather monitors within a U.S. county, you will need to get an access token from
-#'    NOAA to use this function. Visit NOAA's token request page (\url{http://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
+#'    NOAA to use this function. Visit NOAA's token request page (\url{https://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
 #'    email. You then need to set that API code in your R session (e.g., using \code{options(noaakey = "your key")}, replacing "your key"
 #'    with the API key you've requested from NOAA).
 #'

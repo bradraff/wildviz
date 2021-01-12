@@ -24,7 +24,7 @@ which includes all available weather variables at any weather station in
 the county. For a full list of all
 possible variable names, see NOAA's README file for the Daily Global
 Historical Climatology Network (GHCN-Daily) at
-\url{http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt}. Many of
+\url{https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/readme.txt}. Many of
 the weather variables are available for some, but not all, monitors, so
 your output from this function may not include all the variables
 specified using this argument. If you specify a variable here but it is
@@ -54,7 +54,7 @@ Retrieve average daily weather data for a list of US counties.
 }
 \note{
 The function uses the NOAA API to identify the weather monitors within a U.S. county, you will need to get an access token from
-   NOAA to use this function. Visit NOAA's token request page (\url{http://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
+   NOAA to use this function. Visit NOAA's token request page (\url{https://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
    email. You then need to set that API code in your R session (e.g., using \code{options(noaakey = "your key")}, replacing "your key"
    with the API key you've requested from NOAA).
 }

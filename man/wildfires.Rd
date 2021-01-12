@@ -35,6 +35,6 @@ missing counties and reformatting the dates.
 }
 \details{
 This data publication contains a spatial database of wildfires that
-occurred in the United States from 2011 to 2015.
+occurred in the United States from 1992 to 2015.
 }
 \keyword{datasets}

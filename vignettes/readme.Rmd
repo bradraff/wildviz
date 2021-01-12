@@ -67,7 +67,7 @@ db_name = 'data-raw/FPA_FOD_20170508.sqlite'
 
 **Climate**
 
-The climate functions use the NOAA API to identify the weather monitors within a U.S. county, you will need to get an access token from NOAA to use this function. Visit NOAA's token request page <http://www.ncdc.noaa.gov/cdo-web/token> to request a token by email. You then need to set that API code in your R session, i.e.
+The climate functions use the NOAA API to identify the weather monitors within a U.S. county, you will need to get an access token from NOAA to use this function. Visit NOAA's token request page <https://www.ncdc.noaa.gov/cdo-web/token> to request a token by email. You then need to set that API code in your R session, i.e.
 
 ```{r eval = FALSE}
 options(noaakey = "your key")

@@ -30,7 +30,7 @@ maximum and minimum dates, as well as percent data coverage.
 Because this function uses the NOAA API to identify the weather
    monitors within a U.S. county, you will need to get an access token from
    NOAA to use this function. Visit NOAA's token request page
-   (\url{http://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
+   (\url{https://www.ncdc.noaa.gov/cdo-web/token}) to request a token by
    email. You then need to set that API code in your R session (e.g., using
    \code{options(noaakey = "your key")}, replacing "your key" with the API
    key you've requested from NOAA). See the package vignette for more details.
