@@ -26,7 +26,7 @@ It is created from summarizing the measurements from GHCND stations to the daily
 and by filtering on the date (2011 - 2015), state (CA), and key cols.
 }
 \details{
-Data from the Daily Global Historical Climatology Network (GHCN-Daily) through NOAA’s FTP server.
+Data from the Daily Global Historical Climatology Network (GHCN-Daily) through the NOAA FTP server.
 The data is archived at the National Centers for Environmental Information (NCEI)
 (formerly the National Climatic Data Center (NCDC)), and spans from the 1800s to the current year.
 }

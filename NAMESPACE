@@ -2,7 +2,10 @@
 
 export(create_wildfire)
 export(daily_aqi)
+export(daily_climate)
 export(daily_climate_counties)
+export(daily_df)
+export(daily_stations)
 export(get_counties)
 export(get_state_code)
 export(resetDefaults)

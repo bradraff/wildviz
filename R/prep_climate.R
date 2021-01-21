@@ -28,7 +28,7 @@
 #'                          date_max = '2015-12-31',
 #'                          coverage = 0.90)
 #' }
-#'
+#' @export
 daily_climate <- function(fips, var = c('prcp', 'snow', 'snwd', 'tmax', 'tmin'), date_min = '2015-01-01', date_max = '2015-12-31', coverage = 0.90) {
   stations <- daily_stations(fips = fips, date_min = date_min, date_max = date_max)
 

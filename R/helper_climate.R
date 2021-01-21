@@ -92,6 +92,7 @@
 #' station_info <- fips_list$station_df
 #' head(station_info)
 #' }
+#' @export
 daily_df <- function(stations, coverage = NULL, var = "all", date_min = NULL,
                      date_max = NULL, average_data = TRUE) {
   
@@ -231,6 +232,7 @@ daily_df <- function(stations, coverage = NULL, var = "all", date_min = NULL,
 #' }
 #'
 #' @importFrom dplyr %>%
+#' @export
 daily_stations <- function(fips, date_min = NULL, date_max = NULL) {
   
   FIPS <- paste0('FIPS:', fips)
@@ -274,7 +276,7 @@ daily_stations <- function(fips, date_min = NULL, date_max = NULL) {
 #' Returns a dataframe with daily weather averaged across
 #' stations, as well as columns showing the number of stations contributing
 #' to the average for each variable and each day.
-#'
+#' @return A dataframe of daily weather averaged across weather stations
 #' @param weather_data A dataframe with daily weather observations. This
 #'    dataframe is returned from the \code{rnoaa} function
 #'    \code{meteo_pull_monitors}.

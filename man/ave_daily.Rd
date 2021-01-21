@@ -11,6 +11,9 @@ ave_daily(weather_data)
 dataframe is returned from the \code{rnoaa} function
 \code{meteo_pull_monitors}.}
 }
+\value{
+A dataframe of daily weather averaged across weather stations
+}
 \description{
 Returns a dataframe with daily weather averaged across
 stations, as well as columns showing the number of stations contributing

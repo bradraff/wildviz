@@ -65,5 +65,4 @@ climate <- daily_climate(fips = '06001',
                          date_max = '2015-12-31',
                          coverage = 0.90)
 }
-
 }
